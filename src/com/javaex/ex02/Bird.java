@@ -1,11 +1,11 @@
 package com.javaex.ex02;
 
 public abstract class Bird {
-    
-	//field
+
+	// field
 	protected String name;
 
-	//constructor
+	// constructor
 	public Bird() {
 		super();
 	}
@@ -15,7 +15,7 @@ public abstract class Bird {
 		this.name = name;
 	}
 
-	//method - g/s
+	// method - g/s
 	protected String getName() {
 		return name;
 	}
@@ -24,17 +24,16 @@ public abstract class Bird {
 		this.name = name;
 	}
 
-	//method - general
+	// method - general
 	public abstract void sing();
+
 	public abstract void fly();
+
 	public abstract void showName();
-	
+
 	@Override
 	public String toString() {
 		return "Bird [name=" + name + "]";
 	}
-
-	
-
 
 }

@@ -23,7 +23,7 @@ public class Circle extends Shape {
 		this.radius = radius;
 	}
 
-	//method - general
+	// method - general
 	public void draw() {
 		System.out.println("[원]#면색:" + super.fillColor + "  #반지름:" + radius + " 그렸습니다.");
 	}
